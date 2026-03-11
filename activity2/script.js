@@ -96,7 +96,7 @@ function renderProfile() {
     if (!currentUser) return;
 
     profile.innerHTML = `
-        <div class="card shadow-sm" style="max-width:700px">
+        <div class="card shadow-sm" style="max-width:100%">
             <div class="card-body p-4">
                 <h5 class="fw-bold">${currentUser.first} ${currentUser.last}</h5>
                 <p><strong>Email:</strong> ${currentUser.email}</p>
